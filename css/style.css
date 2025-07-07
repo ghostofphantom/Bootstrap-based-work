@@ -7,3 +7,54 @@
 body{
   font-family: "Poppins", sans-serif;   
 }
+
+
+.imageWide{
+  background-color: #ccc;
+  background-image: url(../images/pattern-curve.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 40px;
+  padding-top: 40px;
+
+}
+
+.bOX__01 {
+    background-color: #cfaf72;
+    height: 280px;
+    width: 280px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.bOX__03 {
+    background-color: #cfaf72;
+    height: 280px;
+    width: 280px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+}
+
+.bOX__02 {
+    background-color: #3d82bb;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}  
+
