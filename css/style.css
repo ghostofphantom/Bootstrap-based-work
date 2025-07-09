@@ -89,3 +89,56 @@ body{
     background: pink;
     border-radius: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------
+
+
+
+
+.sliderLeftSide{
+  width: 40% !important;
+  background: rgb(119, 118, 118);
+}
+
+
+.sliderRightSide{
+  width: 60%;  
+  background: darkcyan;
+  color: aliceblue;
+  padding: 80px;
+}
+
+ .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      /* display: flex; */
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      /* display: block; */
+      width: 100%;
+      /* height: 100%; */
+      object-fit: cover;
+    }
+
+    .sliderFlex {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
